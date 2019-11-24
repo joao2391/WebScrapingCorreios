@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebScrapingCorreios</name>
+    </assembly>
+    <members>
+        <member name="M:WebScrapingCorreios.Controllers.CepController.GetByCep(System.String)">
+            <summary>
+            Retorna o endereço completo
+            </summary>
+            <param name="cep">Número do CEP sem '-' (traço)</param>
+            <returns>JSON contendo todas as informações</returns>
+        </member>
+        <member name="M:WebScrapingCorreios.Controllers.EnderecoController.GetByEndereco(System.String)">
+            <summary>
+            Retorna todas as informações
+            </summary>
+            <param name="endereco">Nome da Rua/Avenida sem o número</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebScrapingCorreios.Controllers.RastreioController.GetObjetoRastreio(System.String)">
+            <summary>
+            Retorna o Status do objeto rastreado
+            </summary>
+            <param name="codigoRastreio">Código de Rastreio</param>
+            <returns>JSON contendo todas as informações</returns>
+        </member>
+    </members>
+</doc>
